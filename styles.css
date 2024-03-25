@@ -549,10 +549,52 @@
     color: white;
 }
 
-
-
-
-
-
-
 /*  */
+
+/* Temoignages */
+
+#Temoignages{
+    margin-top:50px;
+}
+
+.clients-img img{
+    width: 250px;
+    border-radius: 50%;
+    height: 100px;
+}
+/* .clients{
+    display: flex;
+    justify-content: space-around;
+} */
+.clients p{
+    font-size: 12px;
+    font-weight:600;
+}
+
+.clients h3{
+    font-size: 18px;
+}
+/*  */
+
+@media screen and (max-width:700px) {
+    /* *{
+        margin: 0;
+        padding: 0;
+    } */
+        .navbar{
+        width: 100vw;
+        margin:0;
+        padding: 0;
+    }
+
+    .home{
+        margin: 00;
+        padding: 0;
+        width: 100vw;
+    }
+    #produits-cards{
+        margin: 00;
+        padding: 0;
+        width: 100vw;
+    }
+}
