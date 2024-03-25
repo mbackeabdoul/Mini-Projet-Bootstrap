@@ -574,13 +574,16 @@
 .clients h3{
     font-size: 18px;
 }
+.radjj {
+    border-radius: 20px;
+}
 /*  */
 
-@media screen and (max-width:700px) {
-    /* *{
+/* @media screen and (max-width:700px) {
+    *{
         margin: 0;
         padding: 0;
-    } */
+    }
         .navbar{
         width: 100vw;
         margin:0;
@@ -597,4 +600,4 @@
         padding: 0;
         width: 100vw;
     }
-}
+} */
