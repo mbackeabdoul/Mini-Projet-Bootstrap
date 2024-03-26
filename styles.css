@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: none;
+    /* outline: 1px solid black; */
 }
 
 /* top bar */
@@ -74,7 +74,9 @@
 
 /* NAVBAR */
 #navbar{
- background-color: rgb(67 0 86);   
+ background-color: rgb(67 0 86);  
+ /* position: sticky;
+ width: 100%;  */
 }
 
 #logo{
@@ -161,7 +163,7 @@
    color: rgb(67 0 86); 
    font-weight: bold;
    margin-left: 23px;
-   font-size: 50px;
+   font-size: 40px;
    text-shadow: 1px 1px 1px black;
 }
 
